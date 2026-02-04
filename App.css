@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+h1{
+    font-family: cursive;
+    padding: 10px;
+    margin-left: 5px;
+    text-align: center;
+    
+    
+}
+p{
+    font-family: cursive;
+    padding: 10px;
+    text-align: center;
+    
+}
+button{
+    padding: 5px;
+    color: chartreuse;
+    margin-left: 130px;
+    margin-bottom: 3px;
+    
+}
+/* .cointainer{
+    margin-top: 0px;
+    background-color: blueviolet;
+} */
+img{
+    width: 400px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* .card{
+    border-radius: 10px;
+    
+    width: 380px;
+    margin-left: 100px;
+    background-color: chartreuse;
+
+} */
+.card:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+  background-color: darkred;
+  
+} 
+.foot{
+  
+  background-color: red;
+}
+.foot:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+  background-color: yellow;
+  
+} 
